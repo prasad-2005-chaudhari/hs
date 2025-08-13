@@ -1,0 +1,25 @@
+name: basic commands
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  testing:
+    runs-on: ubantu-latest
+
+    steps:
+     - name: show current working directory
+       run: pwd
+
+     - name: list files in the directory
+       run: ls -la
+
+     - name: print today's date
+       run: date
+
+     - name: create and display a text file
+       run: |
+         echo "this is a demo file" > demo.txt
+         cat demo.txt
