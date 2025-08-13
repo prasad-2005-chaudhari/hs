@@ -26,4 +26,3 @@ jobs:
       # run second python script
       - name: run hello.py 2
         run: python hellp.py
-      
