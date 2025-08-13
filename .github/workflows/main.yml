@@ -21,7 +21,7 @@ jobs:
 
      - name: create and display a text file
        run: |
-         echo "this is a demo file" > demo.txt
+         echo "this is a demo file"> demo.txt
          cat demo.txt
          
      - name: run python program
