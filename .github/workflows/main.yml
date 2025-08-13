@@ -26,5 +26,5 @@ jobs:
          
      - name: run python program
        run: |
-         echo 'print("hello from python!")' > hellp.py
+         echo 'print("hello from python!")' > hello.py
          python3 hello.py
