@@ -23,3 +23,8 @@ jobs:
        run: |
          echo "this is a demo file" > demo.txt
          cat demo.txt
+         
+     - name: run python program
+       run: |
+         echo 'print("hello from python!")' > hellp.py
+         python3 hello.py
